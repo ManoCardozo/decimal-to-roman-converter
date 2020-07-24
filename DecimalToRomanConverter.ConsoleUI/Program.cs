@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 using DecimalToRomanConverter.Application.Services;
+using DecimalToRomanConverter.Application.Exceptions;
 
 namespace DecimalToRomanConverter.ConsoleUI
 {
@@ -13,22 +14,31 @@ namespace DecimalToRomanConverter.ConsoleUI
 
             while (true)
             {
-                var input = MainScreen();
-                var output = converter.ConvertToRoman(input);
-                Console.WriteLine(output.ToString());
-                PauseScreen();
+                try
+                {
+                    var input = ReadUserInput();
+                    var output = converter.ConvertToRoman(input);
+                    Console.WriteLine($"Result: {output}");
+                    PauseScreen();
+                }
+                catch(OutOfRomanNumeralBoundsException)
+                {
+                    Console.WriteLine("Please enter a number between 1 and 3999");
+                    PauseScreen();
+                }
             }
         }
 
-        static int MainScreen()
+        static int ReadUserInput()
         {
             Console.Clear();
+            Console.WriteLine("Decimal to Roman Numeral Converter");
             Console.WriteLine("Enter a number: ");
             if (!int.TryParse(Console.ReadLine(), out int input))
             {
                 Console.WriteLine("Invalid number");
                 PauseScreen();
-                MainScreen();
+                ReadUserInput();
             }
 
             return input;

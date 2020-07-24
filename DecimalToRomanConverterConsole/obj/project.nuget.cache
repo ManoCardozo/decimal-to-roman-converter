@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9nNlQM7Oj9WNPlB8P0HQjn+/4GDLrVL41QQ0PC6gSDu4lWO/R0W1ur7laSghM37ohqgREQIb42iUasV7nYR2vA==",
+  "dgSpecHash": "8EZRsdlHpMOPMEsCk6jZAxYG9rM5k8Jv44Bf98BfT7/ZxK/KTBkgzXL5adTuD21ZEWYqRWOhMYjZD+WsctEkyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Unknown\\source\\repos\\DecimalToRomanConverter\\DecimalToRomanConverterConsole\\DecimalToRomanConverterConsole.csproj",
+  "projectFilePath": "C:\\Users\\Unknown\\source\\repos\\decimal-to-roman-converter\\DecimalToRomanConverterConsole\\DecimalToRomanConverter.Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

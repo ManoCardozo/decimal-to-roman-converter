@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Unknown\\source\\repos\\DecimalToRomanConverter\\DecimalToRomanConverterConsole\\DecimalToRomanConverterConsole.csproj",
-      "projectName": "DecimalToRomanConverterConsole",
-      "projectPath": "C:\\Users\\Unknown\\source\\repos\\DecimalToRomanConverter\\DecimalToRomanConverterConsole\\DecimalToRomanConverterConsole.csproj",
+      "projectUniqueName": "C:\\Users\\Unknown\\source\\repos\\decimal-to-roman-converter\\DecimalToRomanConverterConsole\\DecimalToRomanConverter.Console.csproj",
+      "projectName": "DecimalToRomanConverter.Console",
+      "projectPath": "C:\\Users\\Unknown\\source\\repos\\decimal-to-roman-converter\\DecimalToRomanConverterConsole\\DecimalToRomanConverter.Console.csproj",
       "packagesPath": "C:\\Users\\Unknown\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Unknown\\source\\repos\\DecimalToRomanConverter\\DecimalToRomanConverterConsole\\obj\\",
+      "outputPath": "C:\\Users\\Unknown\\source\\repos\\decimal-to-roman-converter\\DecimalToRomanConverterConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

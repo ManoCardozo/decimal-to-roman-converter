@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToRomanConverter.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToRomanConverter.ConsoleUI", "DecimalToRomanConverter.ConsoleUI\DecimalToRomanConverter.ConsoleUI.csproj", "{23FB7F47-408D-42D4-A17F-70D3161AC109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToRomanConverter.Application", "DecimalToRomanConverter.Application\DecimalToRomanConverter.Application.csproj", "{7C8D3344-1161-4B1B-9A25-1FE2ED457CE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{23FB7F47-408D-42D4-A17F-70D3161AC109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23FB7F47-408D-42D4-A17F-70D3161AC109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23FB7F47-408D-42D4-A17F-70D3161AC109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8D3344-1161-4B1B-9A25-1FE2ED457CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8D3344-1161-4B1B-9A25-1FE2ED457CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8D3344-1161-4B1B-9A25-1FE2ED457CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8D3344-1161-4B1B-9A25-1FE2ED457CE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

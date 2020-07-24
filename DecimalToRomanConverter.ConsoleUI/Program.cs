@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DecimalToRomanConverterConsole
+namespace DecimalToRomanConverter.ConsoleUI
 {
     class Program
     {
